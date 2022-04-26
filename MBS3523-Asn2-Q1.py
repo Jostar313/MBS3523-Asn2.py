@@ -22,9 +22,11 @@ def get_className(classNo):
     if classNo == 0:
         return "HYL"
     elif classNo == 1:
-        return "FMY"
+        return "Teemo"
     elif classNo == 2:
-        return "HCY"
+        return "Yip"
+     elif classNo == 3:
+        return "Unknown"
 
 
 while True:
